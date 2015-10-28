@@ -1,4 +1,75 @@
 body {
-  color: blue;
-
+  /*color: blue;*/
+  font-family: arial, helvetica;
+  background: url("foodpic.jpeg") no-repeat center center fixed;
+  background-size: 100%;
 }
+
+header {
+  background-color: rgb(226, 120, 27);
+  color: white;
+  text-align: center;
+  padding: 5px 25px 50px 75px; /*works like a clock starting at noon*/
+  margin: 20px;
+}
+
+/*classes use once in html
+id's can be used a lot more*/
+
+#page-title {
+  font-size: 4em;
+}
+
+.restaurant-group {
+  border: 1px solid grey;
+  padding: 20px;
+  margin: 20px;
+  background-color: rgba(215, 121, 36, 0.5);
+}
+
+.restaurant-group h2 {
+  color:white;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.restaurant-group h3 {
+  font-weight: normal;
+  font-style: italic;
+  color:white;
+}
+
+.restaurant-group a {
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 10px;
+  color:white;
+  background-color: #364523;
+  padding: 5px;
+}
+
+.restaurant-group a:hover {
+  background-color: white;
+  color: grey;
+}
+
+p {
+  font-size: 1.2em;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-weight: 100; /*100-900, or bold*/
+  color: #333;
+  line-height: 200%;
+  letter-spacing: 1px;
+}
+
+.restaurant-group img{
+  float: right;
+}
+
+
+
+
+
+
+
+
